@@ -7,79 +7,50 @@ export default function IndexPage() {
   return (
     <Layout>
       <Hero
-        heading="Build something amazing"
-        text="Reiciendis quia totam esse. Dicta minus iusto quisquam doloribus temporibus."
+        heading="EaaSo Marketplace."
+        text="1 Click, Video First, Marketplace for digital presence."
         image={{
           src: "/images/crayon-982.png",
           alt: "Hero image",
         }}
         buttons={
-          <a variant="button.secondary.lg" href="#" mt="4">
-            Get started <Icon name="arrow-right" size="6" ml="2" />
+          <a variant="button.secondary.lg" mt="4">
+            Coming Soon
           </a>
         }
       />
       <Cards
-        subheading="Subheading"
-        heading="Unlock your creativity"
-        text="Dicta minus iusto quisquam doloribus temporibus."
+        subheading="EaaSo"
+        heading="Marketplace for Creators"
+        text="Focus on creating. EaaSo will take care of distributions."
         cards={[
           {
-            heading: "Marketing Strategies",
+            heading: "Digital Marketing Tools.",
             text:
-              "Vestibulum ante ipsum primis in faucibus orci luctus et primis in faucibus ultrices.",
+              "No need to install 100's of digital tools.",
             image: {
               src: "/images/crayon-welcome.png",
               alt: "Image",
             },
-            link: (
-              <a
-                display="inline-flex"
-                alignItems="center"
-                variant="text.link"
-                href="#"
-              >
-                Learn more <Icon name="arrow-right" size="4" ml="2" />
-              </a>
-            ),
           },
           {
-            heading: "Business Planning",
+            heading: "Payments",
             text:
-              "Vestibulum ante ipsum primis in faucibus orci luctus et primis in faucibus ultrices.",
+              "Sell anywhere in the world, in any language, get paid in any currency.",
             image: {
               src: "/images/crayon-list-is-empty.png",
               alt: "Image",
-            },
-            link: (
-              <a
-                display="inline-flex"
-                alignItems="center"
-                variant="text.link"
-                href="#"
-              >
-                Learn more <Icon name="arrow-right" size="4" ml="2" />
-              </a>
-            ),
+            }
+            ,
           },
           {
-            heading: "Premium Support",
+            heading: "Multiple Channels",
             text:
-              "Vestibulum ante ipsum primis in faucibus orci luctus et primis in faucibus ultrices.",
+              "EaaSo provide multi channel solution to reach your customers.",
             image: {
               src: "/images/crayon-come-back-later.png",
               alt: "Image",
             },
-            link: (
-              <a
-                display="inline-flex"
-                alignItems="center"
-                variant="text.link"
-                href="#"
-              >
-                Learn more <Icon name="arrow-right" size="4" ml="2" />
-              </a>
-            ),
           },
         ]}
       />
