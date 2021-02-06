@@ -7,8 +7,8 @@ export default function IndexPage() {
   return (
     <Layout>
       <Hero
-        heading="EaaSo Marketplace."
-        text="1 Click, Video First, Marketplace for digital presence."
+        heading="NeoSkope."
+        text="Marketing, Sales and Support - Made Easy."
         image={{
           src: "/images/crayon-982.png",
           alt: "Hero image",
@@ -20,9 +20,9 @@ export default function IndexPage() {
         }
       />
       <Cards
-        subheading="EaaSo"
-        heading="Marketplace for Creators"
-        text="Focus on creating. EaaSo will take care of distributions."
+        subheading="NeoSkope"
+        heading="UpGrade your Digital Marketing, Sales and Support"
+        text="Digital Marketing, Sales, Support - ToolSet, Mindset and SkillSet packages."
         cards={[
           {
             heading: "Digital Marketing Tools.",
@@ -34,9 +34,9 @@ export default function IndexPage() {
             },
           },
           {
-            heading: "Payments",
+            heading: "Digital Sales and Support Tools",
             text:
-              "Sell anywhere in the world, in any language, get paid in any currency.",
+              "Reach the customer using email, phone or messenger",
             image: {
               src: "/images/crayon-list-is-empty.png",
               alt: "Image",
@@ -46,7 +46,7 @@ export default function IndexPage() {
           {
             heading: "Multiple Channels",
             text:
-              "EaaSo provide multi channel solution to reach your customers.",
+              "NeoSkope provide multi channel solution to reach your customers.",
             image: {
               src: "/images/crayon-come-back-later.png",
               alt: "Image",

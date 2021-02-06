@@ -1,9 +1,9 @@
 export default {
   site: {
     branding: {
-      name: "EaaSo",
+      name: "NeoSkope",
     },
-    copyright: `© ${new Date().getFullYear()} EaaSo.com Coming Soon`,
+    copyright: `© ${new Date().getFullYear()} NeoSkope.com Coming Soon`,
     links: [
       {
         title: "Home",
