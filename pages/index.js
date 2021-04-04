@@ -7,8 +7,8 @@ export default function IndexPage() {
   return (
     <Layout>
       <Hero
-        heading="NeoSkope."
-        text="Marketing, Sales and Support - Made Easy."
+        heading="EaaSo."
+        text="Digital Marketplace - Made Easy."
         image={{
           src: "/images/crayon-982.png",
           alt: "Hero image",
@@ -20,9 +20,9 @@ export default function IndexPage() {
         }
       />
       <Cards
-        subheading="NeoSkope"
-        heading="UpGrade your Digital Marketing, Sales and Support"
-        text="Digital Marketing, Sales, Support - ToolSet, Mindset and SkillSet packages."
+        subheading="EaaSo"
+        heading="Context based Digital Marketplace"
+        text="Conversations tools for a digital Marketplaces"
         cards={[
           {
             heading: "Digital Marketing Tools.",
@@ -46,7 +46,7 @@ export default function IndexPage() {
           {
             heading: "Multiple Channels",
             text:
-              "NeoSkope provide multi channel solution to reach your customers.",
+              "EaaSo provide multi channel solution to reach your customers.",
             image: {
               src: "/images/crayon-come-back-later.png",
               alt: "Image",
